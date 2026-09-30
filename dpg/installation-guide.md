@@ -19,7 +19,7 @@ This guide provides step-by-step instructions for installing and running Aarogya
 - **Storage**: At least 10GB free space
 
 **Target Device:**
-- **Android Version**: Android 8.0 (API level 26) or higher
+- **Android Version**: Android 10.0 (API level 29) or higher
 - **RAM**: Minimum 4GB
 - **Storage**: At least 2GB free space
 - **Camera**: Required for image capture functionality
@@ -92,7 +92,7 @@ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 1. Download Android Studio from [developer.android.com](https://developer.android.com/studio)
 2. Run the installer and follow the setup wizard
 3. Install the following components:
-   - Android SDK Platform 26 (API level 26)
+   - Android SDK Platform 29 (API level 29)
    - Android SDK Build-Tools
    - Android Emulator
    - Android SDK Platform-Tools
@@ -103,8 +103,6 @@ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 2. Go to **File > Settings** (Windows/Linux) or **Android Studio > Preferences** (macOS)
 3. Navigate to **Appearance & Behavior > System Settings > Android SDK**
 4. Install the following SDK components:
-   - Android 8.0 (API level 26)
-   - Android 9.0 (API level 28)
    - Android 10.0 (API level 29)
    - Android 11.0 (API level 30)
    - Android 12.0 (API level 31)
@@ -209,7 +207,7 @@ android/quest/build/outputs/apk/debug/quest-debug.apk
    - Go to **Tools > AVD Manager**
    - Click **Create Virtual Device**
    - Select a device definition (e.g., Pixel 4)
-   - Select a system image (API level 26 or higher)
+   - Select a system image (API level 29 or higher)
    - Complete the AVD creation
 
 2. Start the emulator and install the APK
