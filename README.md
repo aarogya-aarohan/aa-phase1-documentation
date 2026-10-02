@@ -5,7 +5,7 @@
 [![FHIR](https://img.shields.io/badge/FHIR-R4-orange.svg)](https://hl7.org/fhir/)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Web%20%7C%20FHIR-brightgreen.svg)]()
 
-Comprehensive documentation repository for **Aarogya Aarohan**, an open-source, FHIR-native digital healthcare platform developed as a **Digital Public Good (DPG)** by **ARTPARK** (I-Hub for Robotics and Autonomous Systems Innovation Foundation).
+Comprehensive documentation repository for **Aarogya Aarohan**, an open-source, FHIR-native digital healthcare platform developed by **ARTPARK** (I-Hub for Robotics and Autonomous Systems Innovation Foundation). The Aarogya Aarohan project is funded by Ministry of Education, lead by TANUH and IISc. ARTPARK is the tech partner
 
 ---
 
@@ -71,7 +71,7 @@ Documentation aligned with the [DPG Standard](https://www.digitalpublicgoods.net
   - Custom Questionnaire, StructureMap, and PlanDefinition resource definitions.
 
 ### 3. Features & Health Domains (`features/`)
-- **Oral Cancer Screening**: Specialized digital screening workflows, risk assessment questionnaires, and photographic capture for early triage.
+- **Oral Cancer Screening**: Specialized digital screening workflows, risk assessment questionnaires, and photographic capture for early screening.
 - **Frontline Worker Support**: Task checklists, overdue patient tracking, and automated reminders for community health visits.
 - **Administrative Portal**: Health system hierarchy configuration, user provisioning, and role assignment.
 
