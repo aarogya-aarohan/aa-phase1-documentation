@@ -5,15 +5,17 @@
 [![FHIR](https://img.shields.io/badge/FHIR-R4-orange.svg)](https://hl7.org/fhir/)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Web%20%7C%20FHIR-brightgreen.svg)]()
 
-Comprehensive documentation repository for **Aarogya Aarohan**, an open-source, FHIR-native digital healthcare platform developed by **ARTPARK** (I-Hub for Robotics and Autonomous Systems Innovation Foundation). The Aarogya Aarohan project is funded by Ministry of Education, lead by TANUH and IISc. ARTPARK is the tech partner
+Comprehensive documentation repository for Aarogya Aarohan, an open-source, FHIR-native digital healthcare platform.
 
 ---
 
 ## 📌 Overview
 
-**Aarogya Aarohan** addresses critical healthcare delivery challenges, with a primary focus on early detection, screening of oral cancer, and routine primary healthcare in India. Built around the needs of frontline healthcare personnel such as Accredited Social Health Activists (ASHA workers), Aarogya Aarohan enables offline-first patient registration, longitudinal health tracking, clinical decision support, and standardized reporting.
+**Aarogya Aarohan** is a mobile phone-based app for screening subjects with oral suspicious lesions (Oral Potentially Malignant Disorders (OPMD) and oral cancer). It is developed by a consortium of 30 industry and academia partners led by the Indian Institute of Science.
 
-The platform leverages the **HL7 FHIR** standard, Google's [Android FHIR SDK](https://github.com/google/android-fhir), and the [OpenSRP](https://github.com/opensrp) ecosystem to transform paper-based community health registers into intelligent, task-oriented digital workflows.
+The app is designed for front-line workers to screen for suspicious lesions in outreach programmes and opportunistic screening settings. It records demographic details, habit history, and oral cavity images. The data collected by the app is reviewed by Tele-specialists (Oral Medicine and Radiology/Oral Pathology specialists) for a provisional diagnosis and follow-up patient care.
+
+The platform leverages the **HL7 FHIR** standard, Google's [Android FHIR SDK](https://github.com/google/android-fhir), and the [OpenSRP](https://github.com/opensrp) ecosystem.
 
 ---
 
@@ -23,9 +25,7 @@ The platform leverages the **HL7 FHIR** standard, Google's [Android FHIR SDK](ht
 aarogya-aarohan-docs/
 ├── index.md                 # System overview and high-level platform flow
 ├── dpg/                     # Digital Public Good (DPG) submission & compliance package
-│   ├── readme.md            # DPG overview and standard alignment
 │   ├── sdg-relevance.md     # Alignment with UN SDGs (SDG 3 & SDG 9)
-│   ├── ownership.md         # ARTPARK legal ownership and governance model
 │   ├── licensing.md         # Open source licensing (Apache License 2.0)
 │   ├── platform-independence.md # Vendor neutrality and deployment flexibility
 │   ├── installation-guide.md    # Technical deployment and reviewer setup
@@ -41,7 +41,6 @@ aarogya-aarohan-docs/
 │   ├── supported-health-domains/ # Clinical modules (Oral Cancer Screening, etc.)
 │   └── design/              # UI/UX principles, design system, and accessibility
 ├── project-information/     # Historical background, WHO SMART guidelines, and partners
-└── testingReport/           # Quality assurance, test coverage, and validation reports
 ```
 
 ---
@@ -75,9 +74,6 @@ Documentation aligned with the [DPG Standard](https://www.digitalpublicgoods.net
 - **Frontline Worker Support**: Task checklists, overdue patient tracking, and automated reminders for community health visits.
 - **Administrative Portal**: Health system hierarchy configuration, user provisioning, and role assignment.
 
-### 4. QA & Validation (`testingReport/`)
-- Test strategy documentation, audit logs, and executive QA reports verifying system stability, offline synchronization reliability, and clinical workflow accuracy.
-
 ---
 
 ## 🛠️ Getting Started for Developers & Reviewers
@@ -86,17 +82,14 @@ Documentation aligned with the [DPG Standard](https://www.digitalpublicgoods.net
    - Android Studio Hedgehog (or newer) & JDK 17+ for mobile development.
    - Docker & Docker Compose for local backend services (HAPI FHIR & Keycloak).
 2. **Setup Instructions**:
-   - Follow the detailed steps in [Installation Guide](dpg/installation-guide.md) to launch the stack locally.
+   - Follow the detailed steps in [Installation Guide](installation-guide.md) to launch the stack locally.
    - Refer to [Android Developer Setup](engineering/android-app/developer-setup) for building the mobile APK.
 
 ---
 
-## 🏛️ Governance and Ownership
+## 🏛️ Contact
 
-- **Organization**: I-Hub for Robotics and Autonomous Systems Innovation Foundation (**ARTPARK**)
-- **Website**: [artpark.in](https://www.artpark.in/)
 - **Contact**: `connect@artpark.in`
-- **License**: [Apache License 2.0](dpg/licensing.md)
 
 ---
 
